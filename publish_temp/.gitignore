@@ -1,0 +1,16 @@
+# ignore full US accidents dataset
+data/US_Accidents*.csv
+!data/US_Accidents_sample.csv
+
+# python
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# system
+.DS_Store
+Thumbs.db
